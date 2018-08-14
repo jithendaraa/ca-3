@@ -1,0 +1,88 @@
+.odometer,.odo,.odom {
+    font-size:50px;
+    
+}
+
+
+.links-container{
+    background-color:black;
+    opacity:0.8;
+    text-align:center;
+}
+.button {
+    position: relative;
+    background-color: rgb(80, 83, 80);
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.about{
+   background-color: rgb(30,30,30);
+    text-align:center;
+}
+
+.button:after {
+    
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.links-container{
+    background-color: black;
+    opacity:0.8;
+}
+
+a{
+    color:white;
+}
+.link,.link:hover
+{
+    color: white;
+}
+
+.heading{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(170, 134, 42);
+}
+
+.temp:hover{
+  
+    cursor: pointer;
+    z-index: 1;
+    box-shadow: 2px 2px rgb(192, 151, 20);
+}
+
+.temp
+{
+    height: 280px;
+}
+
+.desc{
+    font-size: 20px;
+    color: rgb(200,200,200);
+}
+
+.container,.container-fluid{
+    background-color: rgb(30,30,30);
+}
+
